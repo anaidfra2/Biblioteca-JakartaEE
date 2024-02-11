@@ -1,0 +1,93 @@
+
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+.logout-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ocupă întreaga lățime */
+    height: 50px; /* Înălțimea barei de navigație */
+    background-color: #333; /* Culoarea de fundal a barei de navigație */
+    color: white; /* Culoarea textului în bara de navigație */
+    position: fixed; /* Fixează bara de navigație în partea de sus */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asigură-te că navbarul este deasupra altor elemente */
+}
+
+
+
+
+.login-button{
+    height:20px;
+    width:80px;
+    background:#B85042 ;
+    border-radius: 5px;
+}
+
+.register-form-container {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visibility */
+    border-radius: 10px; /* Optional: rounds the corners */
+    background-color: #fff; /* Optional: sets a background color */
+}
+
+.register-input, .register-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px; /* Rounds the input fields and button */
+}
+
+.register-button {
+    background-color: #007bff; /* Example button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+
+/* Stilul pentru conținut, inclusiv tabel */
+.content {
+    margin-top: 60px; /* Spațiu suficient pentru a nu se suprapune cu navbar-ul */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Stiluri adiționale pentru tabel */
+table {
+    width: 100%; /* Ocupă întreaga lățime disponibilă */
+    border-collapse: collapse; /* Elimină spațiile dintre celule */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Adaugă bordură celulelor */
+    padding: 8px; /* Spațiu în interiorul celulelor */
+}
+
+th {
+    background-color: #f2f2f2; /* Culoarea de fundal pentru antetul tabelului */
+}
+
+.navigation-link{
+    padding:20px;
+}
+
+.btn-logout{
+    padding-right:10px;
+}
